@@ -8,8 +8,8 @@
 .ul-circles {
   /* --innerSize: 8rem;
   --rimSize: 2rem; */
-  --innerSize: 11rem;
-  --rimSize: 1rem;
+  --innerSize: 10rem;
+    --rimSize: 0.9rem;
   display: grid;
   grid-template-columns: repeat(var(--repeatVal, 1), calc(var(--innerSize)));
   justify-content: center;
@@ -24,20 +24,22 @@
 }
 
 .ul-circles > li {
+ 
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: calc(var(--rimSize) / 16);
-
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   padding: calc(var(--rimSize) / 16);
   border-radius: 50%;
-
   text-align: center;
   position: relative;
-  font-size: medium;
+  font-size: small;
   font-weight: 550;
-  padding: 0 0.5rem;
-
+  padding: 0em 0.8rem;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: center;
+  align-content: center;
 }
 .ul-circles > li::before,
 .ul-circles > li::after {
@@ -52,7 +54,9 @@
   width: calc(100% + calc(2 * var(--rimSize)));
   left: calc(var(--rimSize) * -1);
   top: calc(var(--rimSize) * -1);
+  /* background: var(--accent-color); */
   background: var(--accent-color);
+  
   clip-path: polygon(
     var(--clipX1, 0%) var(--clipY1, 0%),
     var(--clipX2, 50%) var(--clipY1, 0%),
