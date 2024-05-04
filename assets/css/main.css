@@ -657,7 +657,7 @@ input[type=color] {
 
 .bg-position-default {
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
 }
 
@@ -4641,7 +4641,8 @@ div.demo img {
   color: var(--tp-common-black);
 }
 .tp-main-menu nav ul li a {
-  padding: 36px 0;
+  padding: 1.5em 0;
+  /* padding: 36px 0; */
   display: inline-block;
   color: var(--tp-grey-3);
   transition: 0.3s;
@@ -4662,7 +4663,7 @@ div.demo img {
   width: 0;
   height: 2px;
   background: var(--tp-common-black);
-  bottom: 36px;
+  bottom: 25px;
   left: 0;
   transition: all 0.4s ease;
 }
@@ -4858,7 +4859,8 @@ div.demo img {
   color: var(--tp-blue-2);
 }
 .tp-main-menu-about {
-  margin-left: 123px;
+  /* margin-left: 123px; */
+  margin-left: 0px;
 }
 .tp-main-menu-white nav ul li:hover > a {
   color: var(--tp-common-white);
