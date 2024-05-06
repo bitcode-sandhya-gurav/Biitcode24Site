@@ -780,3 +780,19 @@ h6, .h6 {
   font-size: 0.9em;
   font-weight: 500;
 } */
+
+/* .tp-breadcrumb-list-3{
+    background: transparent !important;
+} */
+.tp-breadcrumb-list-inner-3 span{
+    background: transparent !important;
+}
+.tp-breadcrumb-list-3 .tp-breadcrumb-title{
+    color: white !important;
+}
+.tp-breadcrumb-list-3 {
+    background: #201f1f2b !important;
+}
+a {
+    color: white;
+}

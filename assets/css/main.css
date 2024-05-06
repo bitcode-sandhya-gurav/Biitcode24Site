@@ -2872,7 +2872,8 @@ div.demo img {
   margin-bottom: 15px;
 }
 .tp-breadcrumb-para {
-  color: #e7d9ff;
+  /* color: #e7d9ff; */
+  color: #ece4f9;
   margin: 0;
 }
 .tp-breadcrumb-thumb-img {
