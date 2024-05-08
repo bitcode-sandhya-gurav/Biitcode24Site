@@ -21,6 +21,7 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <link rel="stylesheet" href="assets/scss/custome/developer.css">
+   <link rel="stylesheet" href="assets/scss/custome/itServicesCard.css">
 </head>
 
 <body>
@@ -39,7 +40,12 @@
    <!-- preloader end  -->
    <!-- back to top start -->
    <div class="back-to-top-wrapper">
-      <button id="back_to_top" type="button" class="back-to-top-btn">
+
+      <button id="WahtsApp" type="button" class="back-to-top-btn mx-1 my-1 px-3 py-2" style="background-color: #25d366;">
+         <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+      </button>
+
+      <button id="back_to_top" type="button" class="back-to-top-btn mx-1  my-1 px-3 py-2">
          <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                stroke-linejoin="round" />
@@ -84,11 +90,11 @@
       <div class="tp-header-area tp-header-left-2 tp-header-bottom-space tp-white-bg" id="tp-header-sticky">
          <div class="container-fluid gx-0">
             <div class="row gx-0 align-items-center">
-               <div class="col-xl-8 col-lg-9 col-7">
+               <div class="col-xl-12 col-lg-12 col-12">
                   <div class="tp-header-left d-flex align-items-center">
-                     <div class="tp-logo">
+                     <div class="tp-logo" style="width: 12.5em;">
                         <a href="index.html"><img src="assets/img/logo/cropped-bitcode-1-160x58-1-160x54.png"
-                              alt="banking"></a>
+                              class="w-100" alt="banking"></a>
                      </div>
                      <div class="tp-main-menu tp-main-menu-about tp-main-menu-agen d-none d-lg-block w-100">
                         <nav class="tp-main-menu-content tp-main-menu-content-agen">
@@ -97,52 +103,14 @@
                                  <a href="index.html">Home</a>
 
                               </li>
-                              <!-- <li class="has-dropdown">
-                                    <a>Pages</a>
-                                    <ul class="tp-submenu submenu megamenu">
-                                       <li>
-                                          <ul>
-                                             <li><a href="about.html">About us</a></li>
-                                             <li><a href="team.html">Our Team</a></li>
-                                             <li><a href="team-details.html">Team Details</a></li>
-                                             <li><a href="testimonial.html">Testimonial</a></li>
-                                             <li><a href="faq.html">Our Faq</a></li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <ul>
-                                             <li><a href="pricing.html">Pricing Plan</a></li>
-                                             <li><a href="login.html">Login</a></li>
-                                             <li><a href="signup.html">Sign Up</a></li>
-                                             <li><a href="service.html">service</a></li>
-                                             <li><a href="service-details.html">service details</a></li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <ul>
-                                             <li><a href="shop.html">shop</a></li>
-                                             <li><a href="shop-details.html">shop details</a></li>
-                                             <li><a href="cart.html">cart</a></li>
-                                             <li><a href="checkout.html">checkout</a></li>
-                                             <li><a href="eror.html">error</a></li>
-                                          </ul>
-                                       </li>
-                                    </ul>
-                                 </li> -->
-                              <!-- <li class="has-dropdown">
-                                    <a href="portfolio.html">Project</a>
-                                    <ul class="tp-submenu submenu">
-                                       <li><a href="portfolio.html">portfolio</a></li>
-                                       <li><a href="portfolio-details.html">portfolio details</a></li>
-                                    </ul>
-                                 </li> -->
+                            
                               <li class="has-dropdown">
                                  <a href="about.html">About us</a>
                               </li>
 
 
                               <li class="has-dropdown">
-                                 <a href="service.html">Services</a>
+                                 <a>Services</a>
                                  <ul class="tp-submenu submenu">
                                     <li><a href="ITservice.html">IT Services</a></li>
                                     <li><a href="HRservice.html">HR Services</a></li>
@@ -153,24 +121,27 @@
                                  <a href="blog.html">Blog</a>
                               </li>
                               <li class="has-dropdown">
-                                 <a href="gallary.html  ">Gallary</a>
+                                 <a href="careers.html">Careers</a>
                               </li>
+                              <!-- <li class="has-dropdown">
+                                 <a href="gallary.html  ">Gallary</a>
+                              </li> -->
 
                               <!-- <li class="has-dropdown">
-                                    <a href="blog.html">Blog</a>
-                                    <ul class="tp-submenu submenu">
-                                       <li><a href="blog.html">Blog</a></li>
-                                       <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                       <li><a href="blog-details.html">blog details</a></li>
-                                    </ul>
-                                 </li> -->
+                                 <a href="blog.html">Blog</a>
+                                 <ul class="tp-submenu submenu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-sidebar.html">blog sidebar</a></li>
+                                    <li><a href="blog-details.html">blog details</a></li>
+                                 </ul>
+                              </li> -->
                               <li><a href="contact.html">Contact</a></li>
                            </ul>
                         </nav>
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-3 col-5">
+               <!-- <div class="col-xl-4 col-lg-3 col-5">
                   <div class="tp-header-righ d-flex align-items-center justify-content-end">
                      <div class="tp-header-search">
                         <button class="search-click">
@@ -194,7 +165,7 @@
                         <span></span>
                      </div>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
       </div>
@@ -395,6 +366,15 @@
             font-weight: 800;
             margin: 0;
          }
+
+         .tp-section-title-pre {
+            color: #fdfdfd;
+            font-weight: 900;
+         }
+
+         .tp-hero-useractive {
+            margin-top: 2.5em;
+         }
       </style>
       <div class="tp-hero-area p-overflow">
          <div class="swiper tp-hero-slider p-relative">
@@ -410,9 +390,9 @@
                         <div class="tp-hero-single2 d-none d-md-block p-absolute">
                            <img src="assets/img/banner/banking/shape2.png" alt="shape2">
                         </div>
-                        <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
+                        <!-- <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/venu.png" alt="venu">
-                        </div>
+                        </div> -->
                         <!-- <div class="tp-hero-card tptranslateY2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/card.png" alt="card">
                         </div> -->
@@ -438,7 +418,8 @@
                               <div class="tp-hero-wrapper">
                                  <div class="tp-hero-pre">
 
-                                    <span class="tp-section-title-pre">BIITCODE INFORMATION TECHNOLOGY & RECRUITMENT
+                                    <span class="tp-section-title-pre text-light">BIITCODE INFORMATION TECHNOLOGY &
+                                       RECRUITMENT
                                        SERVICE</span>
                                     <h5 class="tp-hero-title tp-hero-title-banking p-relative">Improve your business
                                        performance with our powerful digital solutions <img class="d-none d-lg-block"
@@ -482,14 +463,15 @@
                         <div class="tp-hero-single2 d-none d-md-block  p-absolute">
                            <img src="assets/img/banner/banking/shape2.png" alt="shape2">
                         </div>
-                        <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
+                        <!-- <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/venu.png" alt="venu">
-                        </div>
+                        </div> -->
                         <!-- <div class="tp-hero-card tptranslateY2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/card.png" alt="card">
                         </div> -->
                         <div class="tp-hero-rotate tree-move d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/rotate-shine.png" alt="rotate-shine">
+                           <!-- <img src="assets/img/banners/home_1.jpg" alt="rotate-shine"> -->
                         </div>
                      </div>
                      <div class="container">
@@ -532,7 +514,7 @@
                <div class="swiper-slide">
                   <div class="tp-hero-singles p-relative">
                      <div class="tp-hero-bg img-zoom"
-                        data-background="assets/img/Homepage/medium-shot-smiley-colleagues-job_1920x600.jpg"></div>
+                        data-background="assets/img/banners/home_2.jpg"></div>
                      <div class="tp-hero-shape">
                         <div class="tp-hero-single d-none d-md-block  p-absolute">
                            <img src="assets/img/banner/banking/shape.png" alt="shape">
@@ -540,9 +522,9 @@
                         <div class="tp-hero-single2 d-none d-md-block  p-absolute">
                            <img src="assets/img/banner/banking/shape2.png" alt="shape2">
                         </div>
-                        <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
+                        <!-- <div class="tp-hero-single3 tptranslateX2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/venu.png" alt="venu">
-                        </div>
+                        </div> -->
                         <!-- <div class="tp-hero-card tptranslateY2 d-none d-lg-block p-absolute">
                            <img src="assets/img/banner/banking/card.png" alt="card">
                         </div> -->
@@ -600,8 +582,8 @@
                <div class="col-lg-12 col-md-12">
                   <div class="tp-section-title-wrapper p-relative  mb-50  wow fadeInUp" data-wow-delay=".2s"
                      data-wow-duration="1s">
-                     <span class="tp-section-title-pre">// GET TO KNOW US</span>
-                     <h2 class="tp-section-title">Welcome To Biitcode...</h2>
+                     <!-- <span class="tp-section-title-pre">// GET TO KNOW US</span> -->
+                     <h2 class="tp-section-title">Welcome to Biitcode...</h2>
                      <div class="tp-about-idea tree-move d-none d-xxl-block p-absolute">
                         <img src="assets/img/about/idea.png" alt="idea">
                      </div>
@@ -612,12 +594,14 @@
                            <div class="tp-about-thumb tp-thumb p-overflow wow fadeInUp" data-wow-delay=".3s"
                               data-wow-duration="1s">
                               <div class="tp-thumb-overlay wow"></div>
-                              <img src="assets/img/about/about1.jpg" alt="about1">
+                              <img src="assets/img/banners/hmedetail.jpg" alt="about1">
+                              <!-- <img src="assets/img/banners/home_1.jpg" alt="about1" class="mt-30"> -->
+                              <!-- <img src="assets/img/banners/home2.jpg" alt="about1"> -->
                            </div>
                         </div>
                         <div class="col-lg-7 col-md-7">
                            <div class="tp-about-content wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                              <div class="tp-about-paragraph mb-35" style="text-align: justify;">
+                              <div class="tp-about-paragraph mb-35 text-dark" style="text-align: justify;">
                                  <p>At Biitcode, we are a premier information technology company based in Pune,
                                     dedicated to delivering cutting-edge solutions that transform businesses. Being a
                                     trusted provider of IT & HR services, we have experience in a broad range of digital
@@ -684,7 +668,70 @@
             </div>
          </div>
       </div>
+
       <!-- about-us-area-end -->
+      <!-- minutes-not-days-start -->
+      <div class="tp-minute-days minutes-ptb bg-position-default p-relative"
+         data-background="assets/img/banners/bg/homebg.png" style="backface-visibility: revert-layer;
+        background-color: aliceblue;
+        backdrop-filter: opacity(0.1);
+        background-position: top;
+        background-origin: border-box;
+        background-position: top;
+    ">
+         <div class="tp-minute-shape tree-move d-none d-md-block d p-absolute">
+            <img src="assets/img/minutes/shape2.png" alt="shape2">
+            <!-- <img src="assets/img/banners/bg/homebg.png" alt="shape2"> -->
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="tp-shape-wrapper p-relative">
+                     <div class="tp-minute-shape2 zom-in-out p-absolute">
+                        <img src="assets/img/minutes/shape6.png" alt="shape6">
+                     </div>
+                     <div class="tp-minute-shape3 zom-in-out d-none d-lg-block p-absolute">
+                        <img src="assets/img/minutes/shape8.png" alt="shape8">
+                     </div>
+                     <div class="tp-minute-shape4 zom-in-out d-none d-xxl-block p-absolute">
+                        <img src="assets/img/minutes/shape7.png" alt="shape7">
+                     </div>
+                     <div class="tp-minute-shape5 zom-in-out d-none d-md-block p-absolute">
+                        <img src="assets/img/minutes/shape9.png" alt="shape9">
+                     </div>
+                     <div class="tp-minute-shape6 zom-in-out p-absolute">
+                        <img src="assets/img/minutes/shape.png" alt="shape">
+                     </div>
+                     <div class="tp-minute-shape7 zom-in-out d-none d-xxl-block p-absolute">
+                        <img src="assets/img/minutes/shape4.png" alt="shape4">
+                     </div>
+                     <div class="tp-minute-shape8 zom-in-out d-none d-lg-block p-absolute">
+                        <img src="assets/img/minutes/shape3.png" alt="shape3">
+                     </div>
+                     <div class="tp-minute-shape9 zom-in-out d-none d-lg-block p-absolute">
+                        <img src="assets/img/minutes/shape5.png" alt="shape5">
+                     </div>
+                  </div>
+                  <div class="tp-minute-title text-center wow fadeInUp align-items-center d-flex flex-column"
+                     data-wow-delay=".3s" data-wow-duration="1s">
+                     <h2 class="mb-25" style=" color: #ed3237 !important;">Every Bit of Solution....</h2>
+                     <p class="col-lg-7 pt-25 text-light">
+                        We specialize in web development, software development, and effective digital marketing
+                        strategies, alongside a range of other IT products. In addition to our core services, we also
+                        offer comprehensive HR and recruitment solutions. Whether it's finding the right talent to
+                        enhance your team or streamlining your hiring process, we're dedicated to supporting your
+                        organizational growth and success. From talent acquisition to employee development, we've got
+                        you covered. We have a customer-centric approach with a strong focus on clients' needs and
+                        preferences. We understand the unique needs of the client & then we bring their vision into
+                        reality.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- minutes-not-days-end -->
+
       <!-- service-section-start -->
 
       <style>
@@ -706,6 +753,8 @@
             color: black !important
          }
       </style>
+
+
       <div class="service-area bg-position-default p-relative pt-120 pb-90"
          data-background="assets/img/service/service-bg.png">
          <img class="tp-service-shape1 zom-in-out d-none d-xxl-block" src="assets/img/service/shape.png" alt="shape">
@@ -716,8 +765,8 @@
                <div class="col-12">
                   <div class="tp-section-title-wrapper p-relative  mb-60 wow fadeInUp" data-wow-delay=".2s"
                      data-wow-duration="1s">
-                     <span class="tp-section-title-pre">// CHECK OUR SERVICES</span>
-                     <h2 class="tp-section-title">Our Featured products.</h2>
+                     <!-- <span class="tp-section-title-pre">// CHECK OUR SERVICES</span> -->
+                     <h2 class="tp-section-title">Our Services</h2>
                   </div>
                </div>
 
@@ -742,42 +791,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4 col-md-12">
-                        <div class="tp-service-item mb-30 p-relative p-overflow  wow fadeInUp" data-wow-delay=".5s"
-                           data-wow-duration="1s">
-                           <div class="tp-service-shape-inner p-absolute">
-                              <a class="tp-service-shape p-relative" href="ITservice.html">
-                                 <i class="flaticon-next"></i>
-                              </a>
-                           </div>
-                           <div class="tp-service-icon">
-                              <i class="flaticon-businessman"></i>
-                           </div>
-                           <div class="tp-service-content">
-                              <h3 class="tp-service-title"><a href="ITservice.html">Maintenance / Enhancement </a></h3>
-                              <p class="tp-service-pera">We will serve you wherever you go. Our dedicated team always
-                                 ensures that your systems and processes remain optimized and efficient.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12">
-                        <div class="tp-service-item mb-30 p-relative p-overflow wow fadeInUp" data-wow-delay=".7s"
-                           data-wow-duration="1s">
-                           <div class="tp-service-shape-inner p-absolute">
-                              <a class="tp-service-shape p-relative" href="ITservice.html">
-                                 <i class="flaticon-next"></i>
-                              </a>
-                           </div>
-                           <div class="tp-service-icon">
-                              <i class="flaticon-contactless"></i>
-                           </div>
-                           <div class="tp-service-content">
-                              <h3 class="tp-service-title"><a href="ITservice.html">Testing & Quality Assurance</a></h3>
-                              <p class="tp-service-pera">Testing is our VIRTUE & Quality is our Habit. Our software
-                                 tester thoroughly tested the new website & optimized it well for desktop & mobile.</p>
-                           </div>
-                        </div>
-                     </div>
+
                      <div class="col-lg-4 col-md-12">
                         <div class="tp-service-item mb-30 p-relative p-overflow wow fadeInUp" data-wow-delay=".7s"
                            data-wow-duration="1s">
@@ -816,605 +830,74 @@
                            </div>
                         </div>
                      </div>
-                     <!-- <div class="col-lg-12 col-md-12">
-                        <div class="tp-service-custome mt-60 d-flex align-items-center wow fadeInUp"
-                           data-wow-delay=".7s" data-wow-duration="1s">
-                           <img class="tp-service-customer-img" src="assets/img/service/customers.png" alt="customer">
-                           <p class="tp-service-text m-0">We’ve 234567 satisfied customers with our service.</p>
+
+
+
+                     <div class="col-lg-4 col-md-12">
+                        <div class="tp-service-item mb-30 p-relative p-overflow  wow fadeInUp" data-wow-delay=".5s"
+                           data-wow-duration="1s">
+                           <div class="tp-service-shape-inner p-absolute">
+                              <a class="tp-service-shape p-relative" href="HRservice.html">
+                                 <i class="flaticon-next"></i>
+                              </a>
+                           </div>
+                           <div class="tp-service-icon">
+                              <i class="flaticon-businessman"></i>
+                           </div>
+                           <div class="tp-service-content">
+                              <h3 class="tp-service-title"><a href="HRservice.html">Recruitment Placement</a></h3>
+                              <p class="tp-service-pera">We are your ongoing source for hiring mid-level, senior-level,
+                                 and top-level experts for IT & Non-IT companies. We are not finding the right
+                                 candidates, but we discovering individuals who align with your company's culture.</p>
+                           </div>
                         </div>
-                     </div> -->
+                     </div>
+                     <div class="col-lg-4 col-md-12">
+                        <div class="tp-service-item mb-30 p-relative p-overflow wow fadeInUp" data-wow-delay=".7s"
+                           data-wow-duration="1s">
+                           <div class="tp-service-shape-inner p-absolute">
+                              <a class="tp-service-shape p-relative" href="HRservice.html">
+                                 <i class="flaticon-next"></i>
+                              </a>
+                           </div>
+                           <div class="tp-service-icon">
+                              <i class="flaticon-contactless"></i>
+                           </div>
+                           <div class="tp-service-content">
+                              <h3 class="tp-service-title"><a href="HRservice.html"> Global Payroll Processing</a></h3>
+                              <p class="tp-service-pera">We provide excellent payroll management service. We are
+                                 conducting regular audits to identify discrepancies and ensure compliance.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-12">
+                        <div class="tp-service-item mb-30 p-relative p-overflow wow fadeInUp" data-wow-delay=".7s"
+                           data-wow-duration="1s">
+                           <div class="tp-service-shape-inner p-absolute">
+                              <a class="tp-service-shape p-relative" href="HRservice.html">
+                                 <i class="flaticon-next"></i>
+                              </a>
+                           </div>
+                           <div class="tp-service-icon">
+                              <i class="flaticon-contactless"></i>
+                           </div>
+                           <div class="tp-service-content">
+                              <h3 class="tp-service-title"><a href="HRservice.html"> Staffing Solutions</a></h3>
+                              <p class="tp-service-pera">We offer tailored staffing services to meet your unique
+                                 business needs. We specialize in providing top-tier talent for IT & Non- IT companies,
+                                 with a focus on quality, efficiency, and professionalism.</p>
+                           </div>
+                        </div>
+                     </div>
+
                   </div>
                </div>
-               <!-- <div class="col-lg-3 col-md-6">
-                  <div class="tp-service-more-wrapper tp-thumb p-relative mb-30 wow fadeInUp" data-wow-delay=".9s"
-                     data-wow-duration="1s">
-                     <div class="tp-thumb-overlay wow"></div>
-                     <img class="tp-service-more-img" src="assets/img/service/service.jpg" alt="service">
-                     <div class="tp-service-more text-center">
-                        <a class="tp-service-more-title" href="service.html">For More Service</a>
-                        <a class="tp-btn tp-btn-tes tp-btn-2" href="contact.html">CONTACT<i
-                              class="fa-solid fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div> -->
+
             </div>
          </div>
       </div>
       <!-- service-section-end -->
-      <!-- counter-area-start -->
-      <!-- <div class="tp-counter-area p-relative pt-110 pb-90">
-         <div class="tp-counter-shape up-down d-none d-lg-block p-absolute">
-            <img src="assets/img/counter/shape.png" alt="shape">
-         </div>
-         <div class="tp-counter-shape2 up-down d-none d-lg-block p-absolute">
-            <img src="assets/img/counter/shape2.png" alt="shape2">
-         </div>
-         <div class="container">
-            <div class="row gx-0">
-               <div class="col-12">
-                  <div class="tp-counter-title text-center mb-50  wow fadeInUp" data-wow-delay=".2s"
-                     data-wow-duration="1s">
-                     <h2 class="tp-section-title">Our Results in Numbers.</h2>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="tp-counter-item p-relative text-center mb-30  wow fadeInUp" data-wow-delay=".3s"
-                     data-wow-duration="1s">
-                     <div class="tp-counter-icon">
-                        <i class="flaticon-rating"></i>
-                     </div>
-                     <div class="tp-counter-num">
-                        <h4><span class="counter">800</span>k</h4>
-                     </div>
-                     <p class="tp-counter-title">Total Customers</p>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="tp-counter-item text-center mb-30  wow fadeInUp" data-wow-delay=".5s"
-                     data-wow-duration="1s">
-                     <div class="tp-counter-icon">
-                        <i class="flaticon-rate"></i>
-                     </div>
-                     <div class="tp-counter-num">
-                        <h4><span class="counter">99</span>%</h4>
-                     </div>
-                     <p class="tp-counter-title">Customers Satisfaction</p>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="tp-counter-item text-center mb-30  wow fadeInUp" data-wow-delay=".7s"
-                     data-wow-duration="1s">
-                     <div class="tp-counter-icon">
-                        <i class="flaticon-money-bag"></i>
-                     </div>
-                     <div class="tp-counter-num">
-                        <h4><span class="counter">260</span>b</h4>
-                     </div>
-                     <p class="tp-counter-title">Money Managed</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- counter-area-end -->
-      <!-- minutes-not-days-start -->
-      <div class="tp-minute-days minutes-ptb bg-position-default p-relative"
-         data-background="assets/img/minutes/bg.png">
-         <div class="tp-minute-shape tree-move d-none d-md-block d p-absolute">
-            <img src="assets/img/minutes/shape2.png" alt="shape2">
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="tp-shape-wrapper p-relative">
-                     <div class="tp-minute-shape2 zom-in-out p-absolute">
-                        <img src="assets/img/minutes/shape6.png" alt="shape6">
-                     </div>
-                     <div class="tp-minute-shape3 zom-in-out d-none d-lg-block p-absolute">
-                        <img src="assets/img/minutes/shape8.png" alt="shape8">
-                     </div>
-                     <div class="tp-minute-shape4 zom-in-out d-none d-xxl-block p-absolute">
-                        <img src="assets/img/minutes/shape7.png" alt="shape7">
-                     </div>
-                     <div class="tp-minute-shape5 zom-in-out d-none d-md-block p-absolute">
-                        <img src="assets/img/minutes/shape9.png" alt="shape9">
-                     </div>
-                     <div class="tp-minute-shape6 zom-in-out p-absolute">
-                        <img src="assets/img/minutes/shape.png" alt="shape">
-                     </div>
-                     <div class="tp-minute-shape7 zom-in-out d-none d-xxl-block p-absolute">
-                        <img src="assets/img/minutes/shape4.png" alt="shape4">
-                     </div>
-                     <div class="tp-minute-shape8 zom-in-out d-none d-lg-block p-absolute">
-                        <img src="assets/img/minutes/shape3.png" alt="shape3">
-                     </div>
-                     <div class="tp-minute-shape9 zom-in-out d-none d-lg-block p-absolute">
-                        <img src="assets/img/minutes/shape5.png" alt="shape5">
-                     </div>
-                  </div>
-                  <div class="tp-minute-title text-center wow fadeInUp align-items-center d-flex flex-column"
-                     data-wow-delay=".3s" data-wow-duration="1s">
-                     <h2 class="mb-25">Every Bit of Solution....</h2>
-                     <p class="col-lg-7 pt-25">
-                        We specialize in web development, software development, and effective digital marketing
-                        strategies, alongside a range of other IT products. In addition to our core services, we also
-                        offer comprehensive HR and recruitment solutions. Whether it's finding the right talent to
-                        enhance your team or streamlining your hiring process, we're dedicated to supporting your
-                        organizational growth and success. From talent acquisition to employee development, we've got
-                        you covered. We have a customer-centric approach with a strong focus on clients' needs and
-                        preferences. We understand the unique needs of the client & then we bring their vision into
-                        reality.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- minutes-not-days-end -->
-      <!-- service-section2-start -->
-      <div class="service-area2 pt-115 pb-120">
-         <div class="container">
-            <div class="tp-service2-title p-relative p-overflow">
-               <div class="row m-0">
-                  <div class="col-lg-8 col-md-12">
-                     <div class="tp-section-title-wrapper p-relative  mb-60 wow fadeInUp" data-wow-delay=".2s"
-                        data-wow-duration="1s">
-                        <span class="tp-section-title-pre">// CHECK OUR PROJECTS</span>
-                        <h2 class="tp-section-title">Check Our Recent<br> Projects We Have Done</h2>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-12">
-                     <div class="tp-service2-btn p-absolute mb-50 wow fadeInUp" data-wow-delay=".3s"
-                        data-wow-duration="1s">
-                        <a class="tp-btn tp-btn-transparent" href="portfolio.html">VIEW ALL PROJECTS<i
-                              class="flaticon-next"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="tp-service2-row">
-               <div class="tp-service2-custom wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                  <div class="tp-service2-panel p-relative">
-                     <div class="tp-service2-thumb tp-thumb">
-                        <div class="tp-thumb-overlay wow"></div>
-                        <img src="assets/img/service/service-panel1.jpg" alt="panel">
-                     </div>
-                     <div class="tp-service2-title2">
-                        <div class="tp-service2-text text-center">
-                           <span class="tp-service2-sub-title">Banking,Finance</span>
-                           <h4 class="tp-service2-main-title mb-15"><a href="portfolio-details.html">Mutual Goal
-                                 Funds.</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="tp-service2-custom active wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                  <div class="tp-service2-panel p-relative">
-                     <div class="tp-service2-thumb tp-thumb">
-                        <div class="tp-thumb-overlay wow"></div>
-                        <img src="assets/img/service/service-panel2.jpg" alt="panel2">
-                     </div>
-                     <div class="tp-service2-title2">
-                        <div class="tp-service2-text text-center">
-                           <span class="tp-service2-sub-title">Banking,Finance</span>
-                           <h4 class="tp-service2-main-title mb-15"><a href="portfolio-details.html">Mutual Goal
-                                 Funds.</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="tp-service2-custom wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                  <div class="tp-service2-panel p-relative">
-                     <div class="tp-service2-thumb tp-thumb">
-                        <div class="tp-thumb-overlay wow"></div>
-                        <img src="assets/img/service/service-panel3.jpg" alt="pane3">
-                     </div>
-                     <div class="tp-service2-title2">
-                        <div class="tp-service2-text text-center">
-                           <span class="tp-service2-sub-title">Banking,Finance</span>
-                           <h4 class="tp-service2-main-title mb-15"><a href="portfolio-details.html">Mutual Goal
-                                 Funds.</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="tp-service2-custom wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
-                  <div class="tp-service2-panel p-relative">
-                     <div class="tp-service2-thumb tp-thumb">
-                        <div class="tp-thumb-overlay wow"></div>
-                        <img src="assets/img/service/service-panel4.jpg" alt="panel4">
-                     </div>
-                     <div class="tp-service2-title2">
-                        <div class="tp-service2-text text-center">
-                           <span class="tp-service2-sub-title">Banking,Finance</span>
-                           <h4 class="tp-service2-main-title mb-15"><a href="portfolio-details.html">Mutual Goal
-                                 Funds.</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- service-section2-start -->
-      <!-- features-area-start -->
-      <div class="features-area blue-bg p-relative p-overflow">
-         <img class="tp-features-shape up-down  p-absolute" src="assets/img/feature/features4.png" alt="feature4">
-         <img class="tp-features-shape2 up-down d-none d-xxl-block p-absolute" src="assets/img/feature/features5.png"
-            alt="feature5">
-         <div class="tp-features-shape3  p-absolute"></div>
-         <div class="tp-features-shape4 p-absolute"></div>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4">
-                  <div class="tp-features-balance-wraper mt-80 p-relative wow fadeInUp" data-wow-delay=".3s"
-                     data-wow-duration="1s">
-                     <img class="tp-features-balance" src="assets/img/feature/features3.png" alt="features3">
-                     <img class="tp-features-succes tptranslateX2  p-absolute" src="assets/img/feature/features1.png"
-                        alt="feature1">
-                     <img class="tp-features-deshbord tptranslateY2 p-absolute" src="assets/img/feature/features2.png"
-                        alt="feature2">
-                  </div>
-               </div>
-               <div class="col-lg-8">
-                  <div class="tp-features-content-wrapper pt-115 pb-110">
-                     <div class="tp-section-title-wrapper p-relative  mb-50 wow fadeInUp" data-wow-delay=".3s"
-                        data-wow-duration="1s">
-                        <span class="tp-section-title-pre tp-section-title-pre2">// Biitcode HAVE BEAUTIFUL
-                           FEATURES</span>
-                        <h2 class="tp-section-title tp-section-title2">Freelancer, Enterprneurs, and<br>Sole Traders
-                        </h2>
-                     </div>
-                     <div class="tp-features-list mb-45 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                        <ul>
-                           <li><i class="flaticon-check-mark"></i>Deposit Check Instantly</li>
-                           <li><i class="flaticon-check-mark"></i>Affilates and Partnership</li>
-                           <li><i class="flaticon-check-mark"></i>Business Without Borders</li>
-                        </ul>
-                        <ul class="ml-80">
-                           <li><i class="flaticon-check-mark"></i>Deposit Check Instantly</li>
-                           <li><i class="flaticon-check-mark"></i>Affilates and Partnership</li>
-                           <li><i class="flaticon-check-mark"></i>Business Without Borders</li>
-                        </ul>
-                     </div>
-                     <div class="tp-features-quality-wrapper d-flex align-items-center wow fadeInUp"
-                        data-wow-delay=".7s" data-wow-duration="1s">
-                        <div class="tp-features-quality tp-features-quality-2  d-flex align-items-center">
-                           <div class="tp-features-quality-title-inner ml-30">
-                              <input type="text" class="knob" value="0" data-rel="90" data-linecap="round"
-                                 data-width="118" data-height="118" data-bgcolor="#0f0f0f" data-fgcolor="#FFFFFF"
-                                 data-thickness=".05" data-readonly="true" disabled>
-                           </div>
-                           <h3 class="tp-features-quality-title ml-30">Quality<br>Service</h3>
-                        </div>
-                        <div class="tp-features-quality d-flex align-items-center ml-80">
-                           <div class="tp-features-quality-title-inner ml-30">
-                              <input type="text" class="knob" value="0" data-rel="85" data-linecap="round"
-                                 data-width="118" data-height="118" data-bgcolor="#0f0f0f" data-fgcolor="#FFFFFF"
-                                 data-thickness=".05" data-readonly="true" disabled>
-                           </div>
-                           <h3 class="tp-features-quality-title ml-30">Skilled<br>Employee</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- features-area-end -->
-      <!-- payments-area-start -->
-      <div class="tp-payment bg-position-default pt-110 pb-90" data-background="assets/img/payment/payment-bg.png">
-         <div class="container">
-            <div class="row tp-payment-row">
-               <div class="col-12">
-                  <div class="tp-section-title-wrapper text-center p-relative  mb-50 wow fadeInUp" data-wow-delay=".3s"
-                     data-wow-duration="1s">
-                     <h2 class="tp-section-title tp-section-title-provide">We Provide Our Clients<br> One Paymnets Power
-                        Grid</h2>
-                  </div>
-               </div>
-               <div class="col-xxl-6 col-xl-12">
-                  <div class="tp-payment-position wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                     <div class="row gx-0">
-                        <div class="col-xxl-4 col-xl-12">
-                           <div class="tp-payment-img-wrapper-2 pb-30">
-                              <img class="tp-payment-img6 shadow1 zom-in-out-2 mb-15"
-                                 src="assets/img/payment/paypal.png" alt="paypel">
-                              <img class="tp-payment-img7 shadow1 zom-in-out-2 mb-15"
-                                 src="assets/img/payment/tinder.png" alt="tinder">
-                           </div>
-                        </div>
-                        <div class="col-xxl-2 col-xl-12">
-                           <div class="tp-payment-img-wrapper-1 pb-30">
-                              <img class="tp-payment-img1 shadow1 zom-in-out-2 mb-15" src="assets/img/payment/fedex.png"
-                                 alt="fedex">
-                              <img class="tp-payment-img2 shadow1 zom-in-out-2 mb-15" src="assets/img/payment/ola.png"
-                                 alt="ola">
-                              <img class="tp-payment-img3 shadow1 zom-in-out-2" src="assets/img/payment/visa.png"
-                                 alt="visa">
-                           </div>
-                        </div>
-                        <div class="col-xxl-4 col-xl-12">
-                           <div class="tp-payment-img-wrapper pb-30">
-                              <img class="tp-payment-img1 shadow1 zom-in-out-2 mb-15" src="assets/img/payment/slack.png"
-                                 alt="slack">
-                              <img class="tp-payment-img2 shadow1 zom-in-out-2" src="assets/img/payment/rails.png"
-                                 alt="rails">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xxl-6 col-xl-12">
-                  <div class="tp-payment-right p-relative pb-30 wow fadeInUp" data-wow-delay=".7s"
-                     data-wow-duration="1s">
-                     <img class="tp-payment-apps shadow1 p-relative z-index-1" src="assets/img/payment/apps.png"
-                        alt="apps">
-                     <img class="tp-payment-review tptranslateY2  shadow1  p-absolute" src="assets/img/payment/view.png"
-                        alt="view">
-                     <img class="tp-payment-kirki tptranslateX2   shadow1  p-absolute"
-                        src="assets/img/payment/kirki.png" alt="kirki">
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- payments-area-end -->
-      <!-- online-banking-area-start -->
-      <div class="online-banking-area pt-110 pb-115">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="tp-section-title-wrapper text-center  mb-60 wow fadeInUp" data-wow-delay=".3s"
-                     data-wow-duration="1s">
-                     <h2 class="tp-section-title pb-25">Super Convenient Online Banking</h2>
-                     <p class="tp-banking-sub m-0">When You want to stay on top of your income and expenses. It's
-                        essential to plan and tightly<br>manage Your financial performance for your banking business</p>
-                  </div>
-               </div>
-               <div class="col-lg-5 col-md-5">
-                  <div class="nav tp-banking-list" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                     <button class="tp-banking-btn tp-banking-item d-flex nav-link active" id="v-pills-home-tab"
-                        data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
-                        aria-controls="v-pills-home" aria-selected="true">
-                        <i class="tp-banking-icon flaticon-bitcoin-wallet"></i>
-                        <b class="tp-banking-title">Crypto<br>Connection</b>
-                     </button>
-                     <button class="tp-banking-btn tp-banking-item d-flex nav-link" id="v-pills-profile-tab"
-                        data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab"
-                        aria-controls="v-pills-profile" aria-selected="false">
-                        <i class="tp-banking-icon flaticon-invoice"></i>
-                        <b class="tp-banking-title">Automated<br>Invoicing System</b>
-                     </button>
-                     <button class="tp-banking-btn tp-banking-item d-flex nav-link" id="v-pills-messages-tab"
-                        data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab"
-                        aria-controls="v-pills-messages" aria-selected="false">
-                        <i class="tp-banking-icon flaticon-activity-tracker"></i>
-                        <b class="tp-banking-title">Income and<br>Expenses Tracker</b>
-                     </button>
-                     <button class="tp-banking-btn tp-banking-item d-flex nav-link" id="v-pills-settings-tab"
-                        data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab"
-                        aria-controls="v-pills-settings" aria-selected="false">
-                        <i class="tp-banking-icon flaticon-tax"></i>
-                        <b class="tp-banking-title">Low Interest<br>Banking Loans</b>
-                     </button>
-                  </div>
-               </div>
-               <div class="col-lg-7 col-md-7">
-                  <div class="tp-banking-img-wrapper tab-content" id="v-pills-tabContent">
-                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">
-                        <img class="tp-banking-img2 w-img" src="assets/img/banking/01.png" alt="banking1">
-                     </div>
-                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="tp-banking-img-wrapper p-relative">
-                           <img class="tp-banking-img-1 w-img" src="assets/img/banking/02.png" alt="banking1">
-                           <img class="tp-banking-img-6 p-absolute" src="assets/img/banking/top.png" alt="banking1">
-                        </div>
-                     </div>
-                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                        aria-labelledby="v-pills-messages-tab">
-                        <img class="tp-banking-img3 w-img" src="assets/img/banking/03.png" alt="banking1">
-                     </div>
-                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab">
-                        <img class="tp-banking-img4 w-img" src="assets/img/banking/04.png" alt="banking1">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- online-banking-area-end -->
-      <!-- video-area-start -->
-      <div class="tp-video-area-start bg-position-default video-ptb" data-background="assets/img/video/video-bg.jpg">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-8">
-                  <div class="tp-section-title-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                     <span class="tp-section-title-pre tp-section-title-pre2 tp-section-title-pre3">// HEY WE ARE RAMBO
-                        BANKIGN AGENCY</span>
-                     <h2 class="tp-section-title tp-section-title2 tp-section-title3">Experience a New World</h2>
-                  </div>
-               </div>
-               <div class="col-lg-4">
-                  <div class="tp-video-popup-wrapper mt-20 text-right">
-                     <div class="tp-video-btn">
-                        <a class="tp-video-play popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                           <i class="p-relative z-index-11 flaticon-play-button"></i>
-                           <div class="tp-video-btn-anm">
-                              <div class="tp-video-waves tp-video-wave-1"></div>
-                              <div class="tp-video-waves tp-video-wave-2"></div>
-                              <div class="tp-video-waves tp-video-wave-3"></div>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- video-area-end -->
-      <!-- proces-area-start -->
-      <div class="process-area p-relative bg-position-default pb-115 wow fadeInUp" data-wow-delay=".5s"
-         data-wow-duration="1s" data-background="assets/img/process/process-bg.png">
-         <img class="tp-process-shape tptranslateY2 d-none d-xl-block p-absolute"
-            src="assets/img/process/process-shape.png" alt="shape">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="tp-process-main-wrapper mb-50">
-                     <div class="row gx-0 h-100 align-items-center">
-                        <div class="col-lg-3">
-                           <div class="tp-process-left-wrapper">
-                              <ul class="tp-process-inner text-center nav" id="myTab" role="tablist">
-                                 <li class="tp-process-item nav-item mb-30" role="presentation">
-                                    <button class="tp-process-btn nav-link active" id="home-tab" data-bs-toggle="tab"
-                                       data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                                       aria-selected="true">Regular</button>
-                                 </li>
-                                 <li class="tp-process-item nav-item mb-30" role="presentation">
-                                    <button class="tp-process-btn nav-link" id="profile-tab" data-bs-toggle="tab"
-                                       data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                       aria-selected="false">Containt</button>
-                                 </li>
-                                 <li class="tp-process-item nav-item" role="presentation">
-                                    <button class="tp-process-btn nav-link" id="messages-tab" data-bs-toggle="tab"
-                                       data-bs-target="#messages" type="button" role="tab" aria-controls="messages"
-                                       aria-selected="false">Marketing</button>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="col-lg-9 h-100">
-                           <div class="tp-process-content-inner tab-content h-100">
-                              <div class="tp-process-content tab-pane active" id="home" role="tabpanel"
-                                 aria-labelledby="home-tab">
-                                 <div class="tp-process-balance-wrapper2 p-relative h-100">
-                                    <img class="tp-process-line d-none d-md-block p-absolute"
-                                       src="assets/img/process/line-shape.png" alt="line-shape">
-                                    <div class="tp-process-service-inner mb-60">
-                                       <div class="tp-process-service mr-20 text-center">
-                                          <i class="tp-process-service-icon flaticon-user"></i>
-                                          <h4 class="tp-process-title">Customer</h4>
-                                       </div>
-                                       <div class="tp-process-service mr-20 text-center">
-                                          <i class="tp-process-service-icon flaticon-shopping-cart"></i>
-                                          <h4 class="tp-process-title">Merchant</h4>
-                                       </div>
-                                       <div class="tp-process-service mr-20 text-center">
-                                          <i class="tp-process-service-icon flaticon-exchange"></i>
-                                          <h4 class="tp-process-title">Gateway</h4>
-                                       </div>
-                                       <div class="tp-process-service text-center">
-                                          <i class="tp-process-service-icon flaticon-home"></i>
-                                          <h4 class="tp-process-title">Acuring Bank</h4>
-                                       </div>
-                                    </div>
-                                    <div class="tp-process-service-inner">
-                                       <div class="tp-process-service mr-20 text-center">
-                                          <i class="tp-process-service-icon flaticon-cpu"></i>
-                                          <h4 class="tp-process-title">flaticon-cpu</h4>
-                                       </div>
-                                       <div class="tp-process-service mr-20 text-center">
-                                          <i class="tp-process-service-icon flaticon-credit-card"></i>
-                                          <h4 class="tp-process-title">Master Card</h4>
-                                       </div>
-                                       <div class="tp-process-service text-center">
-                                          <i class="tp-process-service-icon flaticon-bank"></i>
-                                          <h4 class="tp-process-title">Customer Bank</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
 
-                              <div class="tp-process-content tab-pane h-100" id="profile" role="tabpanel"
-                                 aria-labelledby="profile-tab">
-                                 <div class="tp-process-balance-wrapper">
-                                    <div class="row">
-                                       <div class="col-lg-4 col-md-4 col-sm-6 mb-sm-3">
-                                          <div class="tp-process-balance text-center">
-                                             <img class="tp-process-img" src="assets/img/process/process.png"
-                                                alt="process">
-                                             <h4 class="tp-process-content">Balance</h4>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-4 col-md-4 col-sm-6 mb-sm-10 mb-sm-3">
-                                          <div class="tp-process-balance text-center">
-                                             <img class="tp-process-img" src="assets/img/process/process2.png"
-                                                alt="process2">
-                                             <h4 class="tp-process-content">Containt</h4>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-4 col-md-4 col-sm-6">
-                                          <div class="tp-process-balance text-center">
-                                             <img class="tp-process-img" src="assets/img/process/process3.png"
-                                                alt="process3">
-                                             <h4 class="tp-process-content">Mechant</h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-
-                              <div class="tp-process-content tab-pane" id="messages" role="tabpanel"
-                                 aria-labelledby="messages-tab">
-                                 <div class="tp-process-balance-wrapper2">
-                                    <div class="row">
-                                       <div class="col-xxl-7 col-lg-5 col-md-5">
-                                          <div class="tp-process-service3">
-                                             <img class="tp-process-img2" src="assets/img/process/process5.jpg"
-                                                alt="process5">
-                                             <div class="tp-process-inner3 d-none d-xxl-block">
-                                                <i class="tp-process-service-icon2 flaticon-email"></i>
-                                                <h3 class="tp-process-title2">We Have<br>Over 25<br>Years
-                                                   of<br>Experience</h3>
-                                                <a class="tp-process-link" href="#">READ MORE</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="col-xxl-5 col-lg-7 col-md-7">
-                                          <div class="tp-process-content-wrapper3">
-                                             <div class="tp-process-content-inner4 mb-40">
-                                                <i class="tp-process-icon3 flaticon-check-mark"></i>
-                                                <div class="tp-process-content3">
-                                                   <h4 class="tp-process-content3">Premium Support</h4>
-                                                   <p>Our banking platform is a <br>protected encryption</p>
-                                                </div>
-                                             </div>
-                                             <div class="tp-process-content-inner4 mb-40">
-                                                <i class="tp-process-icon3 flaticon-check-mark"></i>
-                                                <div class="tp-process-content3">
-                                                   <h4 class="tp-process-content3">Success Rates</h4>
-                                                   <p>Our banking platform is a <br>protected encryption</p>
-                                                </div>
-                                             </div>
-                                             <div class="tp-process-content-inner4">
-                                                <i class="tp-process-icon3 flaticon-check-mark"></i>
-                                                <div class="tp-process-content3">
-                                                   <h4 class="tp-process-content3">Easy transfers</h4>
-                                                   <p>Our banking platform is a <br>protected encryption</p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="tp-process-more text-center wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                     <p>Biitcode service built speacily for your business. <a href="service-details.html">GET KNOW
-                           MORE</a></p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- proces-area-end -->
       <!-- testimonial-area-start -->
       <div class="testimonial-area pt-110 pb-60">
          <div class="container-fluid">
@@ -1422,7 +905,7 @@
                <div class="col-12">
                   <div class="tp-section-title-wrapper text-center p-relative wow fadeInUp" data-wow-delay=".3s"
                      data-wow-duration="1s">
-                     <span class="tp-section-title-pre">// What our client say about Biitcode</span>
+                     <!-- <span class="tp-section-title-pre">// What our client say about Biitcode</span> -->
                      <h2 class="tp-section-title">More Than 4,405,28 Happy Customers<br> Trust Our Services</h2>
                   </div>
                </div>
@@ -1536,12 +1019,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="tp-testimonial-review text-center wow fadeInUp" data-wow-delay=".5s"
-                     data-wow-duration="1s">
-                     <p>But don’t just take our word for it - check out what our customers have to say about
-                        their<br>experience with us: <span>Excellent</span> <span class="text-color"> Based on 25,454
-                           reviews</span></p>
-                  </div>
+
                </div>
             </div>
          </div>
@@ -1555,7 +1033,7 @@
                <div class="col-12">
                   <div class="tp-section-title-wrapper mb-60 p-relative wow fadeInUp" data-wow-delay=".2s"
                      data-wow-duration="1s">
-                     <span class="tp-section-title-pre">// CHECK OUR BLOG</span>
+                     <!-- <span class="tp-section-title-pre">// CHECK OUR BLOG</span> -->
                      <h2 class="tp-section-title">Read Our Latest Blog</h2>
                   </div>
                </div>
@@ -1621,7 +1099,7 @@
       </div>
       <!-- blog-area-end -->
       <!-- cta-area-start -->
-      <div class="cta-area pt-65 pb-70  bg-position-default" data-background="assets/img/cta/cta-bg.jpg">
+      <!-- <div class="cta-area pt-65 pb-70  bg-position-default" data-background="assets/img/cta/cta-bg.jpg">
          <div class="container">
             <div class="row">
                <div class="col-lg-8 col-md-12">
@@ -1638,25 +1116,178 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- cta-area-end -->
+
+
+
+ <!--  Industry Serveed -->
+ <div class="row mt-50">
+   <div class="col-lg-12  justify-content-center">
+      <div class="tp-cta-content w-100 justify-content-center mt-25">
+         <h2 class="tp-cta-title text-dark justify-content-center text-center mb-20">Industries That We
+            Served</h2>
+         <!-- <p class="m-0">Get in touch to learn how our bankign solution can inrease your business -->
+         </p>
+      </div>
+
+
+   </div>
+
+   <div  class="col-md-12 mt-50"  >
+
+      <div class="row m-0 d-flex justify-content-center">
+         <div class="col-md-3 col-sm-6">
+             <div class="serviceBox green">
+                 <div class="service-content">
+                     <div class="service-icon">
+                         <span><i class="fa fa-globe"></i></span>
+                     </div>
+                     <p class="description">
+                        Information Technology, ITES, BPO, Gaming, Crypto Currency, E commerce
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="serviceBox green">
+                 <div class="service-content">
+                     <div class="service-icon">
+                         <span><i class="fa fa-rocket"></i></span>
+                     </div>
+                     <p class="description">
+                        Educational Institutes, Healthcare, Hotel Industry, NGO, Agriculture
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="serviceBox green">
+                 <div class="service-content">
+                     <div class="service-icon">
+                         <span><i class="fa fa-rocket"></i></span>
+                     </div>
+                     <p class="description">
+                        Manufacturing, Auto Components, Heavy Engineering, Electrical & Industrial Automation
+                     </p>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+
+   </div>
+
+
+
+
+
+ 
+</div>
+
+ <!--  Industry Serveed -->
+
+
+
+ <!-- testimonial-area-start -->
+ <div class="testimonial-area pt-110 pb-60">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-12">
+            <div class="tp-section-title-wrapper text-center p-relative wow fadeInUp" data-wow-delay=".3s"
+               data-wow-duration="1s">
+               <h2 class="tp-section-title">Trusted Our Clients</h2>
+            </div>
+         </div>
+         <div class="col-12">
+            <div class="swiper tp-testimonial-slide">
+               <div class="swiper-wrapper">
+                  <!-- single-slide -->
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/prohaktivinc.jpg" alt="brands" style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <!-- single-slide -->
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/siemens.jpg" alt="brands" style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <!-- single-slide -->
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/wonderStand.jpg" alt="brands" style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <!-- single-slide -->
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/Logo-150-90.png" alt="brands" style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <!-- single-slide -->
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/Logo-3.png" alt="brands"style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/Logo-4.png" alt="brands" style="width: 8em;">
+                     <!-- </div> -->
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <!-- <div class="tp-testimonial-wrapper"> -->
+                     <img src="assets/img/clients/Logo-5.png" alt="brands"style="width: 8em;" >
+                     <!-- </div> -->
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <img src="assets/img/clients/deccaleap.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s" href="#">
+                     <img src="assets/img/clients/client2.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <img src="assets/img/clients/professionalSupport.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s" >
+                     <img src="assets/img/clients/jobizza.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <img src="assets/img/clients/rdp.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <img src="assets/img/clients/emvoltic.png" alt="brands" style="width: 8em;">
+                  </div>
+                  <div class="swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                     <img src="assets/img/clients/tlite.png" alt="brands" style="width: 8em;">
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</div>
+<!-- testimonial-area-end -->
+
+
+
    </main>
    <!-- footer-area-start -->
    <footer>
       <div class="footer-area pt-120 pb-70  bg-position-default" data-background="assets/img/footer/footer-bg.jpg">
-         <div class="container">
-            <div class="row">
+         <div class="container-fluid">
+            <div class="row mx-4 px-2">
                <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="tp-footer-widget tp-footer-colum1 mb-40  wow fadeInUp" data-wow-delay=".3s"
                      data-wow-duration="1s">
-                     <div class="tp-footer-logo mb-20">
-                        <a href="#"><img src="assets/img/logo/cropped-bitcode-1-160x58-1-160x54.png" alt="logo"></a>
+                     <div class="tp-footer-logo mb-20" style="width: 12.5em;">
+                        <a href="#"><img src="assets/img/logo/footerLogo.png" alt="logo"
+                              class="w-100"></a>
                      </div>
-                     <div class="tp-footer-content-3 mb-20">
-                        <!-- <p class="tp-footer-para-2">West Palm Beach,304 Donald Rosse Gardens 234 FL 33410</p> -->
-                        <a href="tel:(+91) 7822813962" class="tp-footer-number">(+91) 7822813962</a>
-                        <a href="mailto: ashwini@biitcode.com" class="tp-footer-email m-0"> ashwini@biitcode.com</a>
-                     </div>
+
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6">
@@ -1666,11 +1297,9 @@
                      <div class="tp-footer-content">
                         <ul class="tp-footer-link">
                            <li><a href="index.html">Home</a></li>
-                           <!-- <li><a href="pricing.html">Pricing Plan</a></li> -->
                            <li><a href="about.html">About US</a></li>
                            <li><a href="service.html">Our Services</a></li>
-                           <!-- <li><a href="pricing.html">Portfolio</a></li> -->
-                           <!-- <li><a href="#">Features</a></li> -->
+                            
                         </ul>
                      </div>
                   </div>
@@ -1682,12 +1311,8 @@
                      <div class="tp-footer-content">
                         <ul class="tp-footer-link">
                            <li><a href="blog.html">Blogs</a></li>
-                           <li><a href="gallary.html">Gallary</a></li>
-                           <!-- <li><a href="#">Terms of Use</a></li>
-                           <li><a href="#">Tearms & Condition</a></li>
-                           <!-- <li><a href="#">Help Center</a></li> ->
-                           <li><a href="#">Company Privacy</a></li>
-                           <li><a href="#">Support</a></li> -->
+                           <!-- <li><a href="gallary.html">Gallary</a></li> -->
+                         
                         </ul>
                      </div>
                   </div>
@@ -1695,16 +1320,12 @@
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                   <div class="tp-footer-widget tp-footer-colum4 mb-40  wow fadeInUp  mx-0 px-0" data-wow-delay=".9s"
                      data-wow-duration="1s">
-                     <h3 class="tp-footer-widget-title mb-20">Get Latest News<br> in Your Box!</h3>
-                     <p class="tp-footer-email m-10">Get Special Offers. We Never Spam.</p>
-                     <!-- <div class="tp-footer-form mb-40">
-                        <form action="#">
-                           <label for="email"><i class="fa-light fa-envelope"></i></label>
-                           <input type="text" name="email" id="email" placeholder="Your Email">
-                           <button class="tp-footer-form-icon" type="submit"><i
-                                 class="flaticon-up-right-arrow"></i></button>
-                        </form>
-                     </div> -->
+                     <h3 class="tp-footer-widget-title mb-20">Contact</h3>
+                     <div class="tp-footer-content-3 mb-20">
+                        <a href="tel:(+91) 7822813962" class="tp-footer-number">(+91) 7822813962</a>
+                        <a href="mailto: ashwini@biitcode.com" class="tp-footer-email m-0"> ashwini@biitcode.com</a>
+                     </div>
+
                      <div class="tp-footer-social">
                         <a href="https://m.facebook.com/people/BiitCode/100084080928392/"><i
                               class="fa-brands fa-facebook"></i></a>
@@ -1712,6 +1333,7 @@
                         <a href="https://www.linkedin.com/company/company-biitcode/"><i
                               class="fa-brands fa-linkedin-in"></i></a>
                         <a href="https://twitter.com/biitcode_bd"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/7822813962 "><i class="fa-brands fa fa-whatsapp"></i></a>
 
                      </div>
                   </div>

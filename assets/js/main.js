@@ -47,7 +47,7 @@
 	////////////////////////////////////////////////////
 	// 01. PreLoader Js
 	windowOn.on('load', function () {
-		$("#loading").fadeOut(100);
+		$("#loading").fadeOut(50);
 	});
 
 	$('#section-time').onePageNav({
@@ -737,7 +737,7 @@
 	////////////////////////////////////////////////////
 	// 33. preloader
 	windowOn.on('load',function () {
-		$('#loading').fadeOut(500);
+		$('#loading').fadeOut(100);
 	});
 	document.onreadystatechange = function() {
 		if (document.readyState === "complete") {

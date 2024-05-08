@@ -15958,3 +15958,14 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*# sourceMappingURL=main.css.map */
+.back-to-top-btn {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.back-to-top-wrapper {
+  position: fixed;
+  right: 5em !important;
+}
