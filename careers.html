@@ -47,8 +47,9 @@
       </button>
    </div>
    <header class="tp-header-height">
-
-      <div class="tp-header-area tp-header-about tp-white-bg" id="tp-header-sticky">
+      <style> .tp-main-menu nav ul li a { color: var(--tp-grey-3) !important; } .tp-main-menu nav ul li .active{color: black !important;}
+         .tp-main-menu-agen nav ul li a:hover { color: var(--tp-blue-2) !important;}</style>
+      <div class="tp-header-area tp-header-about tp-white-bg p-0" id="tp-header-sticky">
          <div class="container-fluid">
             <div class="row align-items-center tp-main-menu-default-2">
                <div class="col-xl-12 col-lg-12 col-12">
@@ -82,7 +83,7 @@
                                  <a href="blog.html">Blog</a>
                               </li>
                               <li class="has-dropdown">
-                                 <a href="careers.html">Careers</a>
+                                 <a class="active" href="careers.html">Careers</a>
                               </li>
                               <!-- <li class="has-dropdown">
                                  <a href="gallary.html  ">Gallary</a>
@@ -111,8 +112,8 @@
       <style>.tp-breadcrumb-about .tp-breadcrumb-area-10{ height: 43em; width: 100%;} </style>
       <div class="tp-breadcrumb-about">
          <div class="tp-breadcrumb-area-10 pt-180 pb-180 bg-position-default"
-            data-background="assets/img/banners/about.png">
-            <!-- <img src="assets//img/banners/about.png" >  -->
+            data-background="assets/img/banners/career4.jpg">
+            <!-- <img src="assets//img/banners/career1.jpg" >  -->
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
@@ -147,6 +148,20 @@
    height: 26em;
    border: 1px solid #00000036;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.tp-protfolio-pre-tit {
+   line-height: inherit;}
+   .a-Text{line-height: normal !important; word-wrap: break-word; text-wrap: wrap !important; color: black !important;}
+   .a-Text:hover{line-height: normal !important; word-wrap: break-word; text-wrap: wrap !important; color: black;}
+    .protfolio-content {
+    bottom: 40px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 } </style>
   <div class="portfolio-area-start pt-120 pb-50">
    <div class="container">
@@ -213,7 +228,7 @@
                </a>
                <div class="tp-protfolio-content tp-protfolio-content-agen text-center p-absolute">
                   <span class="tp-protfolio-pre-tit tp-protfolio-pre-tit-agen">Hiring</span>
-                  <h3 class="tp-protfolio-tit tp-protfolio-tit-agen"><a >PHP WooCommerce Developer</a></h3>
+                  <h3 class="tp-protfolio-tit tp-protfolio-tit-agen"><a class="a-Text" >PHP WooCommerce Developer</a></h3>
                </div>
             </div>
          </div>
@@ -278,7 +293,7 @@
                                  aperiam expedita esse soluta ipsam odit similique voluptatibus.
                               </p>
                               <div class="col-md-12">
-                              <button  id="myBtn" class="text-primary p-0">Read More</button>
+                              <!-- <button  id="myBtn" class="text-primary p-0">Read More</button> -->
                               </div>
                            </div>
                            </div>
@@ -296,7 +311,7 @@
                                  aperiam expedita esse soluta ipsam odit similique voluptatibus.
                               </p>
                               <div  class="col-md-12">
-                              <button  id="myBtn" class="text-primary p-0">Read More</button>
+                              <!-- <button  id="myBtn" class="text-primary p-0">Read More</button> -->
                               </div>
                            </div>
                            </div>
@@ -315,7 +330,7 @@
                                  aperiam expedita esse soluta ipsam odit similique voluptatibus.
                               </p>
                               <div class="col-md-12">
-                              <button  id="myBtn" class="text-primary p-0">Read More</button>
+                              <!-- <button  id="myBtn" class="text-primary p-0">Read More</button> -->
                               
                            </div>
                            </div>
@@ -495,7 +510,7 @@
    <footer>
       <div class="footer-area pt-120 pb-70  bg-position-default" data-background="assets/img/footer/footer-bg.jpg">
          <div class="container-fluid">
-            <div class="row mx-4 px-2">
+            <div class="row px-2">
                <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="tp-footer-widget tp-footer-colum1 mb-40  wow fadeInUp" data-wow-delay=".3s"
                      data-wow-duration="1s">
@@ -513,7 +528,7 @@
                         <ul class="tp-footer-link">
                            <li><a href="index.html">Home</a></li>
                            <li><a href="about.html">About US</a></li>
-                           <li><a href="service.html">Our Services</a></li>
+                           <li><a href="">Services</a></li>
 
                         </ul>
                      </div>
@@ -524,8 +539,10 @@
                      data-wow-duration="1s">
                      <h3 class="tp-footer-widget-title mb-20"> Quick Access</h3>
                      <div class="tp-footer-content">
-                        <ul class="tp-footer-link">
+                         <ul class="tp-footer-link">
                            <li><a href="blog.html">Blogs</a></li>
+                           <li><a href="ITservice.html">IT Services</a></li>
+                           <li><a href="HRservice.html">HR Services</a></li>
                            <!-- <li><a href="gallary.html">Gallary</a></li> -->
 
                         </ul>
@@ -542,13 +559,13 @@
                      </div>
 
                      <div class="tp-footer-social">
-                        <a href="https://m.facebook.com/people/BiitCode/100084080928392/"><i
+                        <a href="https://m.facebook.com/people/BiitCode/100084080928392/" target="_blank"><i
                               class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/company-biitcode/"><i
+                        <a href="https://www.instagram.com/biitcode.bd/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/company-biitcode/" target="_blank"><i
                               class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://twitter.com/biitcode_bd"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://wa.me/7822813962 "><i class="fa-brands fa fa-whatsapp"></i></a>
+                        <a href="https://twitter.com/biitcode_bd" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/7822813962" target="_blank"><i class="fa-brands fa fa-whatsapp"></i></a>
 
                      </div>
                   </div>

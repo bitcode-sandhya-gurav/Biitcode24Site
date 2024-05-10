@@ -48,6 +48,13 @@
     /* color: #007687; */
     color: black;
 }
+.serviceBox:hover {
+background: linear-gradient(to top left, #e32b30, #e1dfdf, rgb(237 50 55 / 7%));
+background: linear-gradient(to top left, #080303, #f9585c, rgb(255 255 255));
+}
+.serviceBox:hover .service-content {
+background: linear-gradient(to top left, #e32b30, #e1dfdf, rgb(237 50 55 / 7%));
+}
 .serviceBox.purple{ background: linear-gradient(to right, #ae3de2 49%, #8622d5 50%); }
 .serviceBox.purple .service-icon{ color: #ae3de2; }
 .serviceBox.purple:hover .service-icon i,
