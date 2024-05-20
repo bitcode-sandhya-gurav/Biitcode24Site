@@ -85,7 +85,14 @@
       <!-- header-top-area-end -->
       <!-- main-header-area-start -->
        <style> .tp-main-menu nav ul li a { color: var(--tp-grey-3) !important; } .tp-main-menu nav ul li .active{color: black !important;}
-         .tp-main-menu-agen nav ul li a:hover { color: var(--tp-blue-2) !important;}</style>
+         .tp-main-menu-agen nav ul li a:hover { color: var(--tp-blue-2) !important;}
+         @media only screen and (min-width: 1700px) and (max-width: 1800px), only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+               .tp-header-about { 
+                  padding: 0 !important;
+               }
+            }
+         
+         </style>
       <div class="tp-header-area tp-header-about tp-white-bg" id="tp-header-sticky">
          <div class="container-fluid">
             <div class="row align-items-center tp-main-menu-default-2">

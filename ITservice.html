@@ -90,7 +90,14 @@
       <!-- header-top-area-end -->
       <!-- main-header-area-start -->
        <style> .tp-main-menu nav ul li a { color: var(--tp-grey-3) !important; } .tp-main-menu nav ul li .active{color: black !important;}
-         .tp-main-menu-agen nav ul li a:hover { color: var(--tp-blue-2) !important;}</style>
+         .tp-main-menu-agen nav ul li a:hover { color: var(--tp-blue-2) !important;}
+         @media only screen and (min-width: 1700px) and (max-width: 1800px), only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+               .tp-header-about { 
+                  padding: 0 !important;
+               }
+            }
+         
+         </style>
       <div class="tp-header-area tp-header-about tp-white-bg" id="tp-header-sticky">
          <div class="container-fluid">
             <div class="row align-items-center tp-main-menu-default-2">
@@ -301,6 +308,7 @@
    .tp-service-title{
       min-height: 2.5em;
    }
+   .tp-service-item{height: 35em;}
  </style>
  <div class="service-area bg-position-default p-relative pt-120 pb-90"
  data-background="assets/img/service/service-bg.png">
@@ -828,7 +836,7 @@
                <div class="row">
 
                   <div class="col-lg-7 mb-10">
-                     <div class="tp-author-content wow fadeInRight" data-wow-delay=".4s" data-wow-duration="1s">
+                     <div class="tp-author-content wow fadeInRight" style="margin-left: 0 ;"  data-wow-delay=".4s" data-wow-duration="1s">
                         <div class="mb-25">
                            <h1 class="tp-brands2-title"> Digital Marketing Services </h1>
                         </div>
